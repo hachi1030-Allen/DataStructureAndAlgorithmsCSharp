@@ -324,6 +324,9 @@ namespace BinaryTree
                 bool goLeftNext = true;
                 
                 // start by pushing Head onto the stack
+                // This is actually used to start the while loop in the below.
+                // At last, after the last value returned, the stack will be popped,
+                // then the while loop will stop and this value will never to return again.
                 stack.Push(current);
 
                 while (stack.Count > 0)
@@ -335,7 +338,7 @@ namespace BinaryTree
                         // we will yield the left-most after this block.
                         while (current.Left != null)
                         {
-                            // bug? Need to push current.Left? Since above already pushed the current which is the head?
+                            // Not a bug, see above 4 line comments starting by "start by pushing Head onto the stack".
                             stack.Push(current);
                             current = current.Left;
                         }

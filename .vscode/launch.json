@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/SinglyLinkedList/bin/Debug/netcoreapp2.2/SinglyLinkedList.dll",
+            "program": "${workspaceFolder}/TestProjects/TestBinaryTree/bin/Debug/netcoreapp2.2/TestBinaryTree.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/SinglyLinkedList",
+            "cwd": "${workspaceFolder}/TestProjects/TestBinaryTree",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
