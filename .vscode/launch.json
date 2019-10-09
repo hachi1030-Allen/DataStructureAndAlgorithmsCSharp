@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/TestProjects/SimpleStringHash/bin/Debug/netcoreapp2.2/SimpleStringHash.dll",
+            "program": "${workspaceFolder}/TestProjects/SimpleStringHash/bin/Debug/netcoreapp3.0/SimpleStringHash.dll",
             "args": [],
             "cwd": "${workspaceFolder}/TestProjects/SimpleStringHash",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
