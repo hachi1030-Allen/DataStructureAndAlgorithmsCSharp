@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/DataStructures/TestProjects/SimpleStringHash/bin/Debug/netcoreapp2.2/SimpleStringHash.dll",
+            "program": "${workspaceFolder}/Algorithms/CodeSamples/MajorityElement_Best/bin/Debug/netcoreapp2.2/MajorityElement_Best.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/DataStructures/TestProjects/SimpleStringHash",
+            "cwd": "${workspaceFolder}/Algorithms/CodeSamples/MajorityElement_Best",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
