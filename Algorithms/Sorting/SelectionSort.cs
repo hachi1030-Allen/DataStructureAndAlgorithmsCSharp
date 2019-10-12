@@ -14,7 +14,7 @@ namespace Sorting
             {
                 int nextIndex = FindIndexOfSmallestFromIndex(items, sortedRangeEnd);
                 // Swap the smallest item to the current sortedRangeEnd index.
-                Swap(items, sortedRangeEnd, items[nextIndex]);
+                Swap(items, sortedRangeEnd, nextIndex);
 
                 sortedRangeEnd++;
             }
@@ -37,7 +37,7 @@ namespace Sorting
                     currentSmallestIndex = i;
                 }
             }
-            return currentSmallestIndexl;
+            return currentSmallestIndex;
         }
     }
 }
