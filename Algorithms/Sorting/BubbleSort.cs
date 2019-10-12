@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using Tracker;
-namespace BubbleSort
+
+namespace Sorting
 {
     public class BubbleSort<T> : Tracker<T>, ISorter<T>
         where T: IComparable<T>
@@ -8,8 +9,8 @@ namespace BubbleSort
         public void Sort(T[] items)
         {
             bool swapped;
-
-            do{
+            do
+            {
                 swapped = false;
                 for (int i = 1; i < items.Length; i++)
                 {
