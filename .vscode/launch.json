@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Algorithms/CodeSamples/MajorityElement_Best/bin/Debug/netcoreapp2.2/MajorityElement_Best.dll",
+            "program": "${workspaceFolder}/Algorithms/TestProjects/TestSorting/bin/Debug/netcoreapp3.0/TestSorting.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Algorithms/CodeSamples/MajorityElement_Best",
+            "cwd": "${workspaceFolder}/Algorithms/TestProjects/TestSorting",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
