@@ -26,7 +26,7 @@ namespace Sorting
         private int partition(T[] items, int left, int right, int pivotIndex)
         {
             T pivotValue = items[pivotIndex];
-
+            // This is actually to put the pivot to the last element?
             Swap(items, pivotIndex, right);
 
             int storeIndex = left;

@@ -10,13 +10,15 @@ namespace TestSorting
             // Console.WriteLine("Hello World!");
             int[] arr = new int[] {3,7,8,5,2,1,6,4};
             // MergeSort<int> sort = new MergeSort<int>();
-            QuickSortPickLast<int> sort = new QuickSortPickLast<int>();
+            // QuickSortPickLast<int> sort = new QuickSortPickLast<int>();
+            QuickSortPickRandom<int> sort = new QuickSortPickRandom<int>();
             sort.Sort(arr);
 
             foreach (int i in arr)
             {
                 Console.WriteLine(i);
             }
+            Console.ReadLine();
         }
     }
 }
